@@ -11,6 +11,10 @@ final class Transport implements ObserverInterface {
 	 * @used-by \Magento\Framework\Event\Invoker\InvokerDefault::_callObserverMethod()
 	 * @param Observer $ob
 	 */
-	function execute(Observer $ob) {}
+	function execute(Observer $ob) {
+		if (dfs($this)->enable()) {
+
+		}
+	}
 }
 
