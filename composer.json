@@ -1,6 +1,6 @@
 {
 	"name": "mage2pro/mailgun"
-	,"version": "0.0.1"
+	,"version": "0.0.2"
 	,"description": "Mailgun integration with Magento 2"
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/c/extensions/mailgun"
@@ -11,7 +11,7 @@
 		"homepage": "https://mage2.pro/users/dmitry_fedyuk",
 		"role": "Developer"
 	}]
-	,"require": {"mage2pro/core": ">=3.6.2"}
+	,"require": {"mage2pro/core": ">=3.6.3"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Mailgun\\": ""}}
 	,"keywords": [
 		"eCommerce"
