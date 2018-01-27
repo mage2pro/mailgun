@@ -4,6 +4,6 @@
 	xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd"
 >
 	<event name='df_mail_transport'>
-		<observer name='Dfe\Mailgun\Observer\Transport' instance='Dfe\Mailgun\Observer\Transport'/>
+		<observer name='Dfe\Mailgun\Observer' instance='Dfe\Mailgun\Observer'/>
 	</event>
 </config>
