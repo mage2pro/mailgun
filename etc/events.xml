@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
 <config
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd"
+	xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xsi:noNamespaceSchemaLocation='urn:magento:framework:Event/etc/events.xsd'
 >
 	<event name='df_mail_transport'>
-		<observer name='Dfe\Mailgun\Observer' instance='Dfe\Mailgun\Observer'/>
+		<observer instance='Dfe\Mailgun\Observer' name='Dfe\Mailgun\Observer'/>
 	</event>
 </config>
