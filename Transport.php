@@ -9,8 +9,6 @@ class Transport extends \Df\Framework\Mail\Transport {
 	 * @final Unable to use the PHP «final» keyword here because of the M2 code generation.
 	 * @override
 	 * @see \Magento\Framework\Mail\TransportInterface::getMessage()
-	 * @return void
-	 * @throws MailException
 	 */
-	function sendMessage() {}
+	function sendMessage():void {}
 }
